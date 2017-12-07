@@ -9,7 +9,7 @@ $(document).ready(function() {
 var buttonsArray = ['painting', 'building', 'coding', 'crafting',
 	'cooking', 'dreaming'];
 var key = 'dc6zaTOxFJmzC';
-var queryURL = 'http://api.giphy.com/v1/gifs/search?&api_key=' + key + '&limit=15';
+var queryURL = 'https://api.giphy.com/v1/gifs/search?&api_key=' + key + '&limit=15';
 
 var giphy = {
 
