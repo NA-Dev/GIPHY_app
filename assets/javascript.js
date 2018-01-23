@@ -64,6 +64,7 @@ var giphy = {
 		event.preventDefault();
 		var query = $(this).data('name');
 		queryURL += '&q=' + query;
+		console.log(queryURL);
 		$.ajax({
 			url: queryURL,
 			method: 'GET'
